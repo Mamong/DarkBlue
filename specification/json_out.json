@@ -1,0 +1,931 @@
+[
+    {
+        "name": "Time",
+        "1806": {
+            "2A16": {
+                "permission_read": true,
+                "writewithoutresponse": true
+            },
+            "2A17": {
+                "read_string": "EB46723AF9BA4EB8BAFD5E16764F62D0",
+                "permission_read": true,
+                "read": true
+            }
+        },
+        "1805": {
+            "2A2B": {
+                "read_string": "EB7CE44BD580A190",
+                "notify_values": [
+                    "D6CC02D307E6C325",
+                    "BC2ED2890A9F8076",
+                    "DD55136BC9317C37",
+                    "9F4E8E167C081940",
+                    "B16139B5BA10C055",
+                    "6AC5B00102183EC2",
+                    "E10D9825B99ADE28",
+                    "8201B19046C66AA6"
+                ],
+                "notify_delay": 1,
+                "permission_read": true,
+                "read": true,
+                "notify": true
+            },
+            "2A0F": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A14": {
+                "read_string": "FD6313ED13D0EA6844AB3260E1300DA3",
+                "permission_read": true,
+                "read": true
+            }
+        },
+        "1807": {
+            "2A11": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            }
+        }
+    },
+    {
+        "name": "Phone Alert Status",
+        "180E": {
+            "2A3F": {
+                "read_string": "33A4BFB7A6E0A272",
+                "notify_values": [
+                    "D0E48526A5BE3751",
+                    "8473253F90F4224C",
+                    "E01B9C3FEDBD3597",
+                    "130AC022059308E8",
+                    "F6668508ADBBEF17",
+                    "05286E3320718F07",
+                    "CC8090F914ADD659"
+                ],
+                "notify_delay": 1,
+                "permission_read": true,
+                "read": true,
+                "notify": true
+            },
+            "2A41": {
+                "read_string": "4D6282065E80ABE0",
+                "notify_values": [
+                    "205443D0A543A993",
+                    "2B32C6C564EE9373",
+                    "F3C343CD6D69B408",
+                    "E7A77BF6DB0DE238",
+                    "EC81453DB78CFAC0"
+                ],
+                "notify_delay": 1,
+                "permission_read": true,
+                "read": true,
+                "notify": true
+            },
+            "2A40": {
+                "permission_read": true,
+                "writewithoutresponse": true
+            }
+        }
+    },
+    {
+        "name": "Automation IO",
+        "1815": {
+            "2A56": {
+                "read_string": "79E63311560E65AA",
+                "permission_read": true,
+                "read": true
+            },
+            "2A57": {
+                "permission_read": true,
+                "write": true
+            },
+            "2A58": {
+                "read_string": "BB8D90FDB2E3C4FF024114CB1D504FE5",
+                "permission_read": true,
+                "read": true
+            },
+            "2A59": {
+                "permission_read": true,
+                "write": true
+            },
+            "2A5A": {
+                "read_string": "5F584E1E21B33419FDAFB21CE93DC0F2CD9AD465BC2B65F2",
+                "permission_read": true,
+                "read": true
+            }
+        }
+    },
+    {
+        "name": "Alert Notifictaion",
+        "1811": {
+            "2A47": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A46": {
+                "notify_values": [
+                    "77D9C03E784EC6",
+                    "7E3A779FE94728",
+                    "49D4718DD85B67",
+                    "0D192B8CC39ABC",
+                    "8235E8A4A331FE",
+                    "177C5CC0F8512F"
+                ],
+                "notify_delay": 1,
+                "permission_read": true,
+                "notify": true
+            },
+            "2A48": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A45": {
+                "notify_values": [
+                    "E2DB1191018B3E24",
+                    "7D72C7F18167D301",
+                    "9DE9EF955CF7EC91",
+                    "E1FEB07B7144B3F3",
+                    "4E77AF9B2BC74F0D",
+                    "281C155C86735B79"
+                ],
+                "notify_delay": 1,
+                "permission_read": true,
+                "notify": true
+            },
+            "2A44": {
+                "permission_read": true,
+                "write": true
+            }
+        }
+    },
+    {
+        "name": "Cycling Power",
+        "1818": {
+            "2A63": {
+                "notify_values": [
+                    "BCCD2098056F1C752174C162D231FF758F7FE797B1E7FEC64FE9E40DDA5C8547D40AB6433F51875B7C0A7E7D16A281F13E9CB1567BDD312B5E1071424502FAC118C67CAFFD0771B7ABEBE7EF68DAD8FC1670B7E1FBEA7A4975EF67E5F34D1E87D787D7B6237EC30EF0F5FB4927C924326E878E4662266CCC80E5204A0B25074BAFF6B858F84E48A508169C4A2490377DA14A58E240887DAC069F5D34E7486F1D34EB6A0BF24640E8A9BE3E8EDB783FF5389406D4E715C00DD7E336B782BD962F588E3D1B6D1E68E36222F99FCA3A844D3F8F0B0F75C3C33B2FDB39BF64F5F4F256620D4752FE820AADD40BE1E2C221B212A46F2E4104AB3217C56941C13F2837E78D7E4C1BA63193967B3CBB7D5E0284",
+                    "C7550BC46B5ADE92AA3A2EA06BCCD39245E1BA0B2D0BD092FBFB138F3ADF0227595A386BA387894D4DFEE3FDC5C6F167BDBEAA4B68576E5DC1BFB954E6D109E72861844515FB6F784A85F596CB46DC9B9B8CA20F89C53E5371AEB2F7074797A83831B2DBFB9DC6FA27B575CD0CA9BA30A06065FBDED5DC51C31EAF94A3EDAD8BCECE4CA1CC52D5773A59518A8F97BD2AC4DC491947EA0EB3A115E07789CBB96850A02877887B98A631E771A0726BF8AD4EC5EF0C32F821AE59650D98B040EAA2B4529004775947912B28AB2D64F88B98A969204C65660291FDBDC778D390E34E50DF72A7429DD82A74222E94EA0B04DCE60D949B66B0983DE86414525B4C28E168B48FA6EC8F2A709F16848C95452CAF",
+                    "6C345B70D7B80D94AD8966D7D999CBE107ED5D5B5E01DD4D36221B6E28E6E05C398685BE1833F00014D44210B67A5A25B779D35D413585294540F2AE427B48DAC6E4C06CC2C62C7390916CBEDFE57225C310FFDD9E2356B05F93E5E40374075CDD4674F8954C24CF5185DE1AC5BE75FC9B078AC8EB23FF9645A79BFCB09BD29895F0C46A59337045AA001B9E67E02D3C632079AACB08DE0E98D122948907E6A4080BFE7A2635FC387281B29CB205BC2CC28F050F0AC212B65345973AC27DEE3CB13AA5681C61411073EE1B1043463F3154AB807373D5113525E6792E4078F7B3F57DB601A7155B4D96978A3C870ECF50D181ACDBDB817740591BC649F223EEE8DCDEA6608000BDB288855CCBE76A5E1F",
+                    "9114570DFC8CF7C079E17066D0B23CB9F3AD1F6A73C29FD9678AEFEC530709CBC4220ABB25398994A7C41EC5F9F490AE049FE3F16C234BC3471CE55055C8FA8D63D3400FBEBFF924DE70F480ED9C11B701A9C9BAC0FA1F5C00D5E412C73D08312C6CC6C9E3FA1247A868727301D13E1933E2034C3032494E40DC1D1CAD6ED3C56CA2FB7E3DE9C6B5BD08EA331B623281F5CC54D87C532B1B308FFFF57937A3D5F30E61E070877218E8CB4D13476916536D61CFD72272BEAE6A5CDE083CFAF308B3D8267DAA198B8237822E8C3F7F644EC40C97D768E507CDC60D2454A1434C9710ECA1BC2352EDBB1074F3DA0E68FFBA45CF64389156842187F704C35D7642C2C3E22E2021DB82553BC6A69F81F408E5",
+                    "E312292D81D2851F723E26C08A72DCE3F5BC39BD8BEED7B8DAAE827678239EFECC51F7121E2827F1A680500A15B2BA5F2C3E2585CA5CAF6AD05304A88EA74BFA770DB905AE6C8DE6F05E50A7A6F0BAF87769685AA1E515C8F759A4E61B87F44E3487AA92314D8FCDE9C50CB575757A9FDFA0D116940353D040B1F2A62974D9AD3B098B50B808CAE8E65BE5CC03C3F8AB03FE22A52E3693145DD01E10E5BC97B73324F670A5EE01D9E8E472A6DF7240E16EB711ED3796A7B199CA69A8016B415E9B2A08155DAD3474C9D228BE9BBDAA9436DF71FEA789139DF86D72299FF7C012C2FCD9F338345859DEF9DDB85B0B266A2A0B4763518050BBE115914F1CF0857E4BA50AB89E1F357293DDF367BA2BE7FD",
+                    "D875DAC4A313C5B1F591F2B403C12A4EC535C3A61C5DD2750A1EC12C384342C1971992F15DC452D266723F2A553D0F7AD0FE337DECDE38D7494DEADB78D9760924EE4F0965CDA31D2CCF3C64A1047F7E5D95CA64FD44F56D9BCB16E5040481DCE35D6CB4F70CE9B27AF551AD70394FE3357C312B054D4C6D987D444DEC23E74268276ECD64423A0F87ADA4430C1B2827B37DC6B4BA6D72B84F35F68F106F39235A1C59BAE79E596A859738EF21E6722C75D973FAB72AC5F0007C92BFAE0D7FF40FEEA6C4320749681BAD9C3DFFEF93384FA22079C26FC50F5A18D750A39EF86049CF504CD271FFE40B73E7A7A28DAAFA83B1EF321DF1DB822CE015B2588A1A2E5EED84241BEEC339D804699E90E901E4",
+                    "49ED835B9F23FA3C5A551025E51B3D65623D130151836C1520E5E223BA49981F65DD5DD88D180950FDA47B4EA0CA4711E33F277BE786D50D313E5BF77C55C1A7BFF405E5E470784D5F13F6ED9257B2F2A6464AD23B4BCE33B775B0E1918FD39BD59FEDEF943CEA08C716BA9141310B27EB9DFD58F395849614CBD82504592DE1E9FF659683339CAB90D643A8DEA612A00BD2D5A75BB8A95294F0278D3BEF1BCE4DA1C0E0F9B6CE1D574C99DEFD978A0CF02CB9687B7585D6F8677FBD99C3A9C138D680B6B57B0D60E0887D8BDEF204B90325CC1516F518E24EC3EBFBFCD46D4E0DE943F58DD896C982C1ECF930114D14DFD2E8F48CF4BF4F443CD899C2A5F596A581FB2965CDA08429A847D0CEC274DC",
+                    "DC47323A59448D6AF676977E6B15811E30926C6E94577FE0517A182A51A93F654FD02CE87406C530B902AC2ADC36FE6D749C7518A400FE2D09CF9606C5A8F0E9AA55372984FA955A019BB63FBD031FDE0369E6BDA58FAA5E23E7CC6BBD431D6CCBC0888B112FBB90ABC2B37B0B11CD217E6D9EA98AB1F0D40445625C3F7B9241C71A52D736210CEFD4BBECA444BAC8109EF7F94023F439994E169D88EE6CA8A13895616B366954390C4F7C4B402AB992011669932AF7A146BFFBC790FEB3B7A2F15512F4A1F14664ABE81805ECF855C0395378B657983CD42FC61FE8B8A9900E5E69211E1380DCCD2F9E0B31EC93C331839A9E4C942AFC17F511F792A965362034D7503C2D0A68893ED238E89590007E"
+                ],
+                "notify_delay": 1,
+                "permission_read": true,
+                "notify": true
+            },
+            "2A65": {
+                "read_string": "31253CDBDEC1F8D47F33491C3FDD31CF568A1084D968288AEC5F9FFDA5AC8886",
+                "permission_read": true,
+                "read": true
+            },
+            "2A5D": {
+                "read_string": "03BA6AB84F521708",
+                "permission_read": true,
+                "read": true
+            },
+            "2A64": {
+                "read_is_ascii": true,
+                "notify_values": [
+                    "UNKNOWN_FIELD_SIZE",
+                    "UNKNOWN_FIELD_SIZE",
+                    "UNKNOWN_FIELD_SIZE",
+                    "UNKNOWN_FIELD_SIZE",
+                    "UNKNOWN_FIELD_SIZE",
+                    "UNKNOWN_FIELD_SIZE"
+                ],
+                "notify_delay": 1,
+                "permission_read": true,
+                "notify": true
+            },
+            "2A66": {
+                "permission_read": true,
+                "write": true,
+                "indicate": true
+            }
+        }
+    },
+    {
+        "name": "Location and Navigation",
+        "1819": {
+            "2A6A": {
+                "read_string": "F262C869B36B39AB216A7B6628648BD10EC37E0F8A54261427A3BCEFEC67BAD4",
+                "permission_read": true,
+                "read": true
+            },
+            "2A67": {
+                "notify_values": [
+                    "CD977B7A4D4E789D888292A015BECCCA6C7DA2136C91BE7FCBD31DBDB19D4A65B99506F33991DBA60F783F8C9659CA825FCB008B5C8D6409D5E3CCDA6273FB676D8CBEAEF58E1D83F8EE8E6B1D8AFD7D279C27377F0BFD79C62E11BBADB9F2A44DFAEA8FBBD1B84A522E8FCA442383B25A3C5327868F90FEBBEE4278EE9DF6A4513D198C2E67F8F004BD8427187690DC1DDEE7917E1267D47E4C0B4D3C3CE7FA1D262F15F4604EEA",
+                    "607CE7F2FDBDF3FA9AB3846129FAF33D52FD36B8072BCD0FFAEFF4E28AA2B8DA09881FC1C7B9F5A43A7D0EBDB5DB8E8202E207916ACB835D3956A927CAC845F995F13CF7B40F40FFB9A4B98EC2DAFC130E02E633B8B2529DA5A6FDEE4F11CBBCA5D02DDF34C6371470D0EAB289D4D8A3DA9636C5DB029A46CAC14999870EEC5C2B7C85718F26539720539C61464E03CAECCF0F0CF5080B9222EC091A0A3046D4E3ED500D063216E9",
+                    "F5C150283059ACCCEA53B767D271BB819E85ED9A91D7E0A2093D1C9C14909BB6C263801B8D6F3F251E1CE660AC0D0655481DC81FBEE79216973D08C66F4F40B8B94F4ACCE5DC3D73CCB24A65020F4BC103E3D6260E646961323C31DE304E1406DFDB0496FC989779DC65981D940E6535990B87305D1A2F42DB1301111863DCF0F66C9424BDA5D0E5D024D647C459FC61E0F35A4B24DC42B08D7365FA8A99F0D99C7A07842BAA2E9D",
+                    "9F12BCDCE4EC8DE92954DEA237E2AB76B4A8E181AF6267FD1F3C553B920B83F2B2BBF6804C98F14262CD749BA39076F21E6868A3A8908602ACC3C8C310A5B79ED446B1B8B4EEE434861CBCD9621492506EB044A7F3759E7529DB0B7A566C9AB31806532988995616258D24AADCE645FC4FD29C1F1A436C10C221095F1D527F5A8570D4FDC3520FCF6F128C4D6AEDDFCE10363467875B33A2770E53B658A939D6348977C49A7D1422",
+                    "1D1E4056912FC4B94C3CD668327656231E52F5CBCAAF79455F0318A429AEB17DB833A769CDC0B4EEB4FC77ABD476EAF8EDBD34C017E978FD3AC1AC4FC5F57CAD24334554DE82053B6C8D51320F0956B05424F95C6834030865CD8234F27F2AA4EBBCF01E7595301241BB79EF9937A16D5EA7CE0137068146E3F673F231E776B2678D4CB1AB7824396645D7DC8BBF009FF391BF12F6DED1BD779E90212038D371FDB65F602583125F",
+                    "66232615C65BEAFBBEF64D98FADB35E399D43F50AD190D5F315B582CE6B8496BCE9803F0886DA17CA1710FE8445639F7B099B8655EA45F873825240707B25D532CC6301FF7AEBA2DD894775370404BA01187E4B0A185B271D414C8C7467D40B1C8F57C94E4EB1392A36CEE439F94CFC718AD3726204CCE8A861AC12993E899BF29C95E2748A1644378BA647DD88FE1E28E994E2881258C41B9D178E0B79684E2A6961AD7EC594852",
+                    "C45CE1A201EEF82E8D94E7685725C5E1B1FE10A73057EECEB50EEC9EAF6D058CED08C418766F2C8CAFF7190E1A209E4E8959D1638D65E7B9D8ACFA8AF62543BF6A207C2E60ECFA9B0719C73D409F60B64CF73BA51112EB45910E7059F1085BFD612180B39FA94A80CE460E15F420773EBDF27681236DDB1078431FECFFC21C62432DF3ECC12985E5F9DB7C72F99F7B373634234C09393121E8015F9D09FA225282C4BE7D95A94613"
+                ],
+                "notify_delay": 1,
+                "permission_read": true,
+                "notify": true
+            },
+            "2A69": {
+                "read_string": "AE7AF063F6FF4DD9C03EA486808CAD1174EA9A176B26463C46D46D7DC73F136C70C800E50347760BB172FBA7B79225D28BFDA1B08564E182FB441EEF97CCEABE073663A3628F742757C39FA8F3802E46D93DA48A9C6D56E8F8B312761C2F764DC9BB65CD297AF4F9BDFA274CE387093136E175568BDF193B54FF9714BC18EED9",
+                "permission_read": true,
+                "read": true
+            },
+            "2A6B": {
+                "permission_read": true,
+                "write": true,
+                "indicate": true
+            },
+            "2A68": {
+                "notify_values": [
+                    "440C24C581347EE7FE6928CF60E6BA0982055808A2EA378E237460E5517929E2DA01C8AFA6DF174185551BCAC688AA43686B2445FE09CAB05CEE729DF78F8A78C358F725A783AB253D8B06AD7F97E62FFEC50B4C272B4E238AF867B1DE826156",
+                    "CC0A75785DEBF8EC1C8A05A38C7B989757D60D8E1DA1109F4225A9ECC0F512455537E795BCC7224E18F06116F7F33CC1FB8D5E5ACB3238CE44E975BAB343B69BF81F06636CA31863F37D12FB0580DE04DBCB98072F12CA48095F299E88D6D2B3",
+                    "EBC98A2345F543BEF2202C6C1D07388C241B258957614A06FDEE1C3F52C187F749F4BB3A54EAEB732A158EB655CCE1839B1F026C1244B86981BC19157EB7E56308640FEDEE3C296BD975BC6FED36FD94F8B77BCCAE8B955770E3EF4DA5A44617",
+                    "E8370B3DD5C095DEC6B6961F5F3BE7FD56B096C7F41FCC37DD7E4487EA127FD97B9207B8C6E7765600988C5268952673DFA57C5A77B78A0EAEA9472A2F71E9A9313B210CF58FDC4B4DFDC99EC1BA33EC1754BBEFCA7B3C2734A0FCB637E93A4B",
+                    "59819C39A657D67203A5E40FE49FF337C1FAEF09B1F2E3FC3A03BC156B6DD160187718088A26014F182903F698292FF37A660E99B1EA13E4AB66C5F1AE01DE5D630E09DE085EA1100D89666AB2C25C897803A6FCCACFFF1ADBCB93D4F55F5ED5",
+                    "B1567C4ED282325BF1F8E6A8901F66103DE4B5A7A7B4A007F86C16A4651548450F52E48AD3300446E9BBA6040EEFD646271226CCA825E5B1733A5C1B1A52B2915AB779BD2D08E48C3CE47D83D495ED7769852163F7A030BCCAD1F2F0D77588CA"
+                ],
+                "notify_delay": 1,
+                "permission_read": true,
+                "notify": true
+            }
+        }
+    },
+    {
+        "name": "Blood Pressure",
+        "180A": {
+            "2A29": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A24": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A25": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A27": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A26": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A28": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A23": {
+                "read_string": "5ADFBD68B1C15EB4E05D9A706402CA42F328F32357F75895CD6F58773106D67529BECC5167EC50D3B6D007E8E626D665B69C1A82C0DDC51CD160FAE1F01860A7",
+                "permission_read": true,
+                "read": true
+            },
+            "2A2A": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A50": {
+                "read_string": "04D7BCBC0255E214DE6A0ADE4BA455D78D861E5E99BAA3CC03FF909253A684C7B669C2FF6FD5E6FFF00F49FD96E98C315BE0E7BEE3274462",
+                "permission_read": true,
+                "read": true
+            }
+        },
+        "1810": {
+            "2A35": {
+                "permission_read": true,
+                "indicate": true
+            },
+            "2A36": {
+                "read_is_ascii": true,
+                "notify_values": [
+                    "UNKNOWN_FIELD_SIZE",
+                    "UNKNOWN_FIELD_SIZE",
+                    "UNKNOWN_FIELD_SIZE",
+                    "UNKNOWN_FIELD_SIZE"
+                ],
+                "notify_delay": 1,
+                "permission_read": true,
+                "notify": true
+            },
+            "2A49": {
+                "read_string": "C3FBFF66127DD2D65F51777003369348",
+                "permission_read": true,
+                "read": true
+            }
+        }
+    },
+    {
+        "name": "Running Speed and Cadence",
+        "1814": {
+            "2A53": {
+                "notify_values": [
+                    "DFC30CB656292C0585177323CB197215013BD2C0ECB4AD6A23052F02C4E70DC4D12685E89E3B4A06C8E0A88451840DB065356E3F123C6B1BC3A02B6916B85A35663BC747AF07C381E58F97680DCC3330",
+                    "D04FDFF2945A1FE45EEA2E61BD248B6E8DDF2BB4C811ECA564D07CC9CC69B6CA3CB9B4D79F941988034145CF4BF0BC009D3C34682CEA9D3213F261A0166D034CAA5DB1BF5B4DA73D57F16BE4F838BC80",
+                    "86B90EE9714718FA77D8BFD15F0E064B37816CD40B048F3810DCF266693223BA9D9E014D187F8C9E6FAB4494CA996533ED5FFD058C4E18169CD806A8067E27D2863B1CE342F74F55BEC051BAEC07437D",
+                    "88843B5D89993ADE00666D7D55479C540756DB1574392443C44BAE3314D060366D9F27E4D9706BF81E9CA20B8FD1F6D80676B67E55BFC00DCC0704AE6C3C3DC0F17B6D30FD20F4A75904DB39A6041E11",
+                    "9755B8A62A649B539572796B7807353CBB2A768F61E98439B04DBD573108C34174B5C5C7ED3B5D89CF887924848E9F214AF8ADF1BB9EAABC16C7D74B6825244BF4234485EBCBA36BC0123AEE196DEFAA",
+                    "A7FC31072379F94EAE48EC569E6C2C889D5AC171478469B25705CB4E7BBDA97DFDF012D3856026845F2B59DCD72F3A07C79360F51388D71C6322F55D7223B6988A0774FC2B1A456D45D489DF733E9E94"
+                ],
+                "notify_delay": 1,
+                "permission_read": true,
+                "notify": true
+            },
+            "2A54": {
+                "read_string": "E57118804AB30CD068569D81416DA135",
+                "permission_read": true,
+                "read": true
+            },
+            "2A5D": {
+                "read_string": "48692138DAAC883C",
+                "permission_read": true,
+                "read": true
+            },
+            "2A55": {
+                "permission_read": true,
+                "write": true,
+                "indicate": true
+            }
+        },
+        "180A": {
+            "2A29": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A24": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A25": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A27": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A26": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A28": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A23": {
+                "read_string": "CA2EF159173943C3E22E003A3B3AE3F90BF545FDC0A324B4D4746D49966942AD650579440D7ED1AE723D7469A062AD6AC6D4946DF392DA42A5B6E7C4BA47958F",
+                "permission_read": true,
+                "read": true
+            },
+            "2A2A": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A50": {
+                "read_string": "D330B9D1BA458B3CFA2C1DCE810578BA2BD8B57CBDCE9A49CBD6DFC18428D8833C49608B5BF9451EF8F1BD4AD243A07FD71961535C6F180E",
+                "permission_read": true,
+                "read": true
+            }
+        }
+    },
+    {
+        "name": "Health Thermometer",
+        "1809": {
+            "2A1C": {
+                "permission_read": true,
+                "indicate": true
+            },
+            "2A1D": {
+                "read_string": "F3387ABD9BC8AFF3",
+                "permission_read": true,
+                "read": true
+            },
+            "2A1E": {
+                "read_is_ascii": true,
+                "notify_values": [
+                    "UNKNOWN_FIELD_SIZE",
+                    "UNKNOWN_FIELD_SIZE",
+                    "UNKNOWN_FIELD_SIZE",
+                    "UNKNOWN_FIELD_SIZE",
+                    "UNKNOWN_FIELD_SIZE",
+                    "UNKNOWN_FIELD_SIZE",
+                    "UNKNOWN_FIELD_SIZE"
+                ],
+                "notify_delay": 1,
+                "permission_read": true,
+                "notify": true
+            },
+            "2A21": {
+                "read_string": "CCD7AA003469E6F215477A37321B087D",
+                "permission_read": true,
+                "read": true
+            }
+        },
+        "180A": {
+            "2A29": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A24": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A25": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A27": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A26": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A28": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A23": {
+                "read_string": "14782E60D283551EC954F3534EEB0BD2424B5FA1F00351262C624AEC2050EFAD7F0FB4D8C76D80AB9CAEEC605CBAAA68643557ABABD2FAAEC3501FB2606919E7",
+                "permission_read": true,
+                "read": true
+            },
+            "2A2A": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A50": {
+                "read_string": "E1876182E564D0DA93FD9B69E0AEE6A3B5262E4973813F6B9D71803BA577AAFE1D7E7D429EE03146864B70B11D6ACBF35EDBA26DB25A5248",
+                "permission_read": true,
+                "read": true
+            }
+        }
+    },
+    {
+        "name": "Heart Rate",
+        "180D": {
+            "2A37": {
+                "notify_values": [
+                    "B20A9210CDAA233E2DC9DBE497D2214752042FA2E0FD28A5862A55CF04A97D5BBB09A47A2B5BE37F145E4D3A25D8D448FD13E3AA5C6BC307DE7A709650F12833",
+                    "7DA888B0D20158A7D075FF5BB23E0B3DAEA5FF8B05FF404140E937B92D5C779A357501FB1CD503CB6AD225FC96F0ACE0109148FD4761E7B5D5DCAAB1C26E68B6",
+                    "4759442C5675E69F9835FBA9FAD0CCF11C65ADE448BD8616F6A5CE78B61ADD93982B90D9D0E22C9A873543DBCA7009F95AA4A9EB47EAEBFDB292B5952446B8D9",
+                    "175C4859FA12A3B442DFDFA515A4BE8D9E49206405DE30792366A1008A33160FD05B9D51CC6B2DFEEE771500FBEF73C2300E0155F9725245B8C457E396E46127"
+                ],
+                "notify_delay": 1,
+                "permission_read": true,
+                "notify": true
+            },
+            "2A38": {
+                "read_string": "C52AC153F71062D1",
+                "permission_read": true,
+                "read": true
+            },
+            "2A39": {
+                "permission_read": true,
+                "write": true
+            }
+        },
+        "180A": {
+            "2A29": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A24": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A25": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A27": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A26": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A28": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A23": {
+                "read_string": "4742E424914572D6F0040C7B667A7978B1F56E29105A4D9CC9570727D4A5EF357DFE22945DE8AE8E7945BDE4CA747D5134064D0C0341F6D129208C2BD538BCC6",
+                "permission_read": true,
+                "read": true
+            },
+            "2A2A": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A50": {
+                "read_string": "45BED4A19CA701AB6EE52BD3A5EA56847A59B984BCB90437C28F2F48C309BD73162A7DBA4819E767828C1166E24397D63A4BB9B529718132",
+                "permission_read": true,
+                "read": true
+            }
+        }
+    },
+    {
+        "name": "HID OVER GATT",
+        "180F": {
+            "2A19": {
+                "read_string": "B109800371DDA500",
+                "permission_read": true,
+                "read": true
+            }
+        },
+        "180A": {
+            "2A29": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A24": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A25": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A27": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A26": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A28": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A23": {
+                "read_string": "97F0CED02E1FD18D47DABE875DD86EE900F67060BAD9C63B265E515D0B011820B1712324A7912B10B02F70A5CEDFE8B589889B0CF2111D19CCB326A734D9C022",
+                "permission_read": true,
+                "read": true
+            },
+            "2A2A": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A50": {
+                "read_string": "57B1FFA46496FD91C8BF636792661AC1715F1A9460D7D5259CD8B87D11F53986592EBDAFB4DCEFAD949F050D873941214FD5A908299F09D6",
+                "permission_read": true,
+                "read": true
+            }
+        },
+        "1813": {
+            "2A4F": {
+                "permission_read": true,
+                "writewithoutresponse": true
+            },
+            "2A31": {
+                "notify_values": [
+                    "218DDBBB2AB8A783",
+                    "87B7505C09051853",
+                    "B8F017D52E0506B6"
+                ],
+                "notify_delay": 1,
+                "permission_read": true,
+                "notify": true
+            }
+        },
+        "1812": {
+            "2A4E": {
+                "read_string": "B766C5EED0241946",
+                "permission_read": true,
+                "read": true,
+                "writewithoutresponse": true
+            },
+            "2A4D": {
+                "read_string": "FCD6CA75CD6B09D9",
+                "notify_values": [
+                    "F40C6EEEF4234D0F",
+                    "79D8E0C9EE00BF1A",
+                    "36C6099B2078E43B",
+                    "1BCA87C17A3098D3",
+                    "14EFFF5CE4732137",
+                    "F104A8C815A2A56F",
+                    "6D511D6E64C64B25"
+                ],
+                "notify_delay": 1,
+                "permission_read": true,
+                "read": true,
+                "notify": true
+            },
+            "2A4B": {
+                "read_string": "7A1F6CAF861112C0",
+                "permission_read": true,
+                "read": true
+            },
+            "2A22": {
+                "read_string": "4A1656FFB6B98357",
+                "notify_values": [
+                    "0ECFE7A2A17AD081",
+                    "503D8B6D6FBE2DE9",
+                    "0E40D9454B6AE0B0",
+                    "C63A5199C0808169",
+                    "F570506193DAF02A",
+                    "FD15E0CEC48AB533",
+                    "9AA15403980E1B81"
+                ],
+                "notify_delay": 1,
+                "permission_read": true,
+                "read": true,
+                "notify": true
+            },
+            "2A32": {
+                "read_string": "F0F7C79375BCAAAA",
+                "permission_read": true,
+                "read": true,
+                "write": true,
+                "writewithoutresponse": true
+            },
+            "2A33": {
+                "read_string": "40C06F564B591546",
+                "notify_values": [
+                    "D5F80F506D1AF1ED",
+                    "3A57441C037BAFC0",
+                    "B35640BDA3239BC5",
+                    "D515FFDAB45E3DD6",
+                    "EF3E811F49F9968D"
+                ],
+                "notify_delay": 1,
+                "permission_read": true,
+                "read": true,
+                "notify": true
+            },
+            "2A4A": {
+                "read_string": "FB5B89A6589B659D4F112758B82755AFF8ED847F167C213803CF13F90E6C9A29",
+                "permission_read": true,
+                "read": true
+            },
+            "2A4C": {
+                "permission_read": true,
+                "writewithoutresponse": true
+            }
+        }
+    },
+    {
+        "name": "Cycling Speed and Cadence",
+        "180A": {
+            "2A29": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A24": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A25": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A27": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A26": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A28": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A23": {
+                "read_string": "A370FD98AF2FC04AEDF293C5302F7EA4A3BC19EF36D660C8B12C94AE3D6BD51A02A487360458E8316B5C3CC39C47AFC1CC29CA4FE574788371808EADA2512CC7",
+                "permission_read": true,
+                "read": true
+            },
+            "2A2A": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A50": {
+                "read_string": "1D68C264426C62E932C23D17E03E350721988268C8C45C1BE66ABC44CBAB12491585791CFB4819314B25D69748856320599805AFD32FEBAA",
+                "permission_read": true,
+                "read": true
+            }
+        },
+        "1816": {
+            "2A5B": {
+                "notify_values": [
+                    "F001E1AE21F4472BA7D91045298256A21DC92F0F45D2D63388F96D8AEA1569FEBB2F4C9DED09EBE57C61A174CC81034E42E59CF3F08391942BCF8F89D5ACC9E2BA1CA2088EA67854529B05FCCA27062A868F13DF3CC151EC",
+                    "295A00D7A38B2825A4CDB38638FE68378CB2B7191A180670F9C93DA2B32DF6DF9F6F5D0B128420F938428A74FCC0FC6CC5EFFFC01D0E371F0D8B0A7295582F0F90C655380277F40C566E2F690A8AD5624108E79B6BCA2046",
+                    "AA8B7CCCB30253F0FC2118D185818CF62375B8699A00641591FBF90B062002A11E0910AD2194E1EE512D9069078352E8478B509022CC31E4F4B0A8C9292C3D751011305FF19163C4C9C5EB5E4E12FF7374A61C5E301E27EB",
+                    "EFD20D126CD50D9F707862100010AC5B13194D5B151D3172AC23839626592A9C17BB2DC70BE4C972748BFCA47D8C5FC018E186135A6587E832EDA01082F99C496D95B7B63C8C5B0AAC297719C2D2EFE6A0C5330167BFD0EE",
+                    "66DFB6EB3070FEEE94E89411AF7975DCE8981F1840C4E06AB9D20AD2016551E0887AD0889C4C53ACA1DB9D4E887BE6FA49D12773C8CA7A755CBDFBD74636BF2D2B610C4271F37CCD465C29A360DC89B1AB06C3C08BCBFE40"
+                ],
+                "notify_delay": 1,
+                "permission_read": true,
+                "notify": true
+            },
+            "2A5C": {
+                "read_string": "F3D0984FD56B24D1A955C8F029AE0805",
+                "permission_read": true,
+                "read": true
+            },
+            "2A5D": {
+                "read_string": "92903E1A2282364F",
+                "permission_read": true,
+                "read": true
+            },
+            "2A55": {
+                "permission_read": true,
+                "write": true,
+                "indicate": true
+            }
+        }
+    },
+    {
+        "name": "Proximity",
+        "1804": {
+            "2A07": {
+                "read_string": "2D1E61AFAB6966B9",
+                "permission_read": true,
+                "read": true
+            }
+        },
+        "1802": {
+            "2A06": {
+                "permission_read": true,
+                "writewithoutresponse": true
+            }
+        },
+        "1803": {
+            "2A06": {
+                "read_string": "1DA59D2546EB24C9",
+                "permission_read": true,
+                "read": true,
+                "write": true
+            }
+        }
+    },
+    {
+        "name": "Scan Parameters",
+        "1813": {
+            "2A4F": {
+                "permission_read": true,
+                "writewithoutresponse": true
+            },
+            "2A31": {
+                "notify_values": [
+                    "4CEDE74309E74DAE",
+                    "6357D00F2B40DD6B",
+                    "00FA8C91D4DCAC9A",
+                    "7CD201959F1C9B63",
+                    "AEA016797BBCC99B",
+                    "19431725312959F3",
+                    "7DFAB77572AEF912"
+                ],
+                "notify_delay": 1,
+                "permission_read": true,
+                "notify": true
+            }
+        }
+    },
+    {
+        "name": "Find Me",
+        "1802": {
+            "2A06": {
+                "permission_read": true,
+                "writewithoutresponse": true
+            }
+        }
+    },
+    {
+        "name": "Glucose",
+        "1808": {
+            "2A18": {
+                "notify_values": [
+                    "1D30DF16F755E07260702B10A5F4F481D7216B002084915B3A68076C2F74B0912BEB2B7E096AFD1428AC783E89B7542968530B4E87BBB43B603BBE2C8E9C30D36EE29CAB523F890ABDF444EA457AE10B1BA6758A3936EA2A2CB883D17E312210",
+                    "ED7FB3C1BB7F46FF8A3B68760E3DC3E210B1E3A03DE70CE50219D8A68FC17C0A37DB3B5613513481CFDF25A9964A6A73CD719D0BCB8866815BADB7B747C867457CA39D449668C3FBC2C15A1356D49689B9D601EA0BF32FC103F4E3409D11B7C3",
+                    "9D6A238CF988CE1B5E0C2B8A4D9E07F4ACDDD26ECB2158A02485DF331BFF2D17BE96F58E33B6D7B89C58B3DD7D21068BBC26BA4711F44E0893C473BA78A4E714D431AB319011C3B7910C1C1EE433CE88809B18D6C0B2AA51EB88BD1819F15AF5"
+                ],
+                "notify_delay": 1,
+                "permission_read": true,
+                "notify": true
+            },
+            "2A34": {
+                "notify_values": [
+                    "DFA277F78DDDF1550953B6A8615C0EF653024AB875110CA481182FCB2776D03CE33F99405A849F5520C81CFEEF2E7C51FCB19D401BFE2D21DA3AC65E7D58B91C7FA3C279855C5BFFC6B1BEFB5E22A9ED4D6A26BF4F88170415D1B8CD950E190E111BEEA0A03C776924961D515512C89F50DACA6D630F54B2E4326E506671B623410D4D94BE04ABEE90488AD6B3C15059A4499112A4E702C4",
+                    "2A1575FB49EA404ED34D275735805EE4338EB51B8C4DE097CC9C1A89D86AAF57DEF5213C7A6B658C41381D82E5957714A08036617B4539CB7046EDF349326BAF42727B80E1ADBA6A08BA0A991EB7048DA982799A3E060ACD6224488F66FFC8284F44E9EC77C6183C3A62CD45349846055ED158E8FC2240E482BF620881E8AB5635FCB1B792182E1AF79F79799587435D5820084C7753D34B",
+                    "76C1054E4BD9B6876111AED632D9F6FCB22A273A9E4FC122683740C1E5862D3294D562863B4530985E8E2876C733973CBBFF732DBA41159E105379C1262FA0D3EE83258BDD7D740220560820F8F260064D625D6D2DC0171920BB1C90FF63C91A913F858C0B51AB758E55BBA121CB97EF61526377C9455511CED24FD93FE0A59CA79B89B02D75644A5E843B5DAB670BC32AE34222C88E9FB9"
+                ],
+                "notify_delay": 1,
+                "permission_read": true,
+                "notify": true
+            },
+            "2A51": {
+                "read_string": "147C5F6401785DFAEBA19E929EB1A93C",
+                "permission_read": true,
+                "read": true
+            },
+            "2A52": {
+                "permission_read": true,
+                "write": true,
+                "indicate": true
+            }
+        },
+        "180A": {
+            "2A29": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A24": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A25": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A27": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A26": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A28": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A23": {
+                "read_string": "EFD807F0908F5ABADA6D56B438D167CBB7C3423299ECCCEC07EDD3EAD9E869F114DFC495F3DF8C9612F9BDF58801D41783FA2293825619B3AE1D3E350B739B5D",
+                "permission_read": true,
+                "read": true
+            },
+            "2A2A": {
+                "read_string": "UNKNOWN_FIELD_SIZE",
+                "permission_read": true,
+                "read": true
+            },
+            "2A50": {
+                "read_string": "6C8E16CB2710460B93893ECFD742BC729C9B880FB79E3EEB3B9ADA1EAD535552CA708D7E692C3571DD8341880D14AB770F270B1753FA3425",
+                "permission_read": true,
+                "read": true
+            }
+        }
+    }
+]

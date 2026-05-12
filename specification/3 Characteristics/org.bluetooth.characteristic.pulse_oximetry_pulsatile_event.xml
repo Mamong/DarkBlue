@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Liquid XML Studio Designer Edition 9.1.10.3537 (http://www.liquid-technologies.com) -->
+<!--Copyright 2011 Bluetooth SIG, Inc. All rights reserved.-->
+<Characteristic xsi:noNamespaceSchemaLocation="http://schemas.bluetooth.org/Documents/characteristic.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Pulse Oximetry Pulsatile Event Characteristic" type="org.bluetooth.characteristic.pulse_oximetry_pulsatile_event" uuid="2A60" last-modified="2012-05-20" approved="No">
+    <InformativeText>
+        <Summary>
+            This characteristic is a variable length structure containing a Flags field, a Pulse Flags field, and based on the contents of the Flags field, may contain a Pulse Quantifier field and a Pulse-Pulse Interval field.The maximum length of this structure if all Flags are set is 8 octets.
+		</Summary>
+	</InformativeText>
+    <Value>
+        <Field name="Flags">
+            <Format>8bit</Format>
+            <BitField>
+                <Bit name="Pulse Quantifier field" index="0" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Pulse-Pulse Interval field" index="1" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <ReservedForFutureUse index="2" size="6"/>
+			</BitField>
+		</Field>
+        <Field name="Pulse Flags">
+            <BitField>
+                <Bit name="A pulse was detected" index="0" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Perfusion or quality of the detected pulse is unacceptable" index="4" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Perfusion or quality of the detected pulse is minimal" index="5" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Perfusion or quality of the detected pulse is marginal" index="6" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+                    </Enumerations>
+				</Bit>
+                <Bit name="Quality of the detected pulse is nominal, in that there are no recognized abnormalities" index="7" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <ReservedForFutureUse index="1" size="3"/>
+			</BitField>
+		</Field>
+	</Value>
+    <Note>
+        The fields in the above table, reading from top to bottom, are shown in the order of LSO to MSO, where LSO = Least Significant Octet and MSO = Most Significant Octet.
+        Where fields with the format ‘nibble’ have been defined in the above table, the fields are shown in the order of Least Significant Nibble first, when reading the table from top to bottom.  Where the characteristic definition contains two adjacent nibbles and the service specification has defined that that pair of nibbles comprise a single octet, the Least Significant Nibble means the four bits numbered 0, 1, 2 and 3 of the octet and the Most Significant Nibble means the four bits numbered 4, 5, 6 and 7 of that octet.
+    </Note>
+</Characteristic>

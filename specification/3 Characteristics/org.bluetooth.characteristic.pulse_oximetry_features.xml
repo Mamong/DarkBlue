@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Liquid XML Studio Designer Edition 9.1.10.3537 (http://www.liquid-technologies.com) -->
+<!--Copyright 2011 Bluetooth SIG, Inc. All rights reserved.-->
+<Characteristic xsi:noNamespaceSchemaLocation="http://schemas.bluetooth.org/Documents/characteristic.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Pulse Oximetry Features" type="org.bluetooth.characteristic.pulse_oximetry_features" uuid="2A61" last-modified="2012-05-20" approved="No">
+    <InformativeText>
+        <Summary>
+            This characteristic is a variable length structure containing a Flags field, a Supported Configuration Features field, and based upon the contents of the Flags field, may also contain the following fields: 
+•	Measurement Status Support
+•	Device and Sensor Status Support
+•	Spot-Check Operating Mode Support 
+•	Continuous Measurement Operating Mode Support
+            The maximum length of this structure if all flags are set is 8 octets.
+		</Summary>
+	</InformativeText>
+    <Value>
+        <Field name="Flags">
+            <Format>8bit</Format>
+            <BitField>
+                <Bit name="Measurement Status support" index="0" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+                    </Enumerations>
+                </Bit>
+                <Bit name="Device and Sensor Status support" index="1" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+                    </Enumerations>
+                </Bit>
+                <Bit name="Spot-Check operating mode support" index="2" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+                    </Enumerations>
+                </Bit>
+                <Bit name="Continuous Measurement operating mode support" index="3" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+                    </Enumerations>
+                </Bit>
+                <Bit name="Default Mode" index="6" size="2">
+                    <Enumerations>
+                        <Enumeration key="00" value="Spot-Check Operating Mode" />
+                        <Enumeration key="01" value="Continuous Measurement Operating Mode" />
+                        <ReservedForFutureUse start="10" end="11" />
+                    </Enumerations>
+                </Bit>
+                <ReservedForFutureUse index="4" size="2" />
+            </BitField>
+		</Field>
+        <Field name="Configuration Support">
+            <Format>8bit</Format>
+            <BitField>
+                <Bit name="Persistent configuration supported" index="0" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Sensor configuration" index="1" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <ReservedForFutureUse index="2" size="6"/>
+			</BitField>
+		</Field>
+        <Field name="Measurement Status Support">
+            <InformativeText>C1: Field exists if the key of bit 0 of the Flags field is set to 1 </InformativeText>
+            <Requirement>C1</Requirement>
+            <Format>16bit</Format>
+            <BitField>
+                <Bit name="Measurement Ongoing bit supported" index="5" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Early Estimated Data bit supported" index="6" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Fully Qualified Data bit supported" index="7" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Data for Demonstration bit supported" index="10" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Data for Testing bit supported" index="11" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Calibration Ongoing bit supported" index="12" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Measurement Unavailable bit supported" index="13" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Questionable Measurement Detected bit supported" index="14" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Invalid Measurement Detected bit supported" index="15" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <ReservedForFutureUse index="0" size="5"/>
+                <ReservedForFutureUse index="8" size="2"/>
+            </BitField>
+		</Field>
+        <Field name="Device and Sensor Status Support">
+            <InformativeText> C2:Field exists if the key of bit 1 of the Flags field is set to 1</InformativeText>
+            <Requirement>C2</Requirement>
+            <BitField>
+                <Bit name="Extended Display Update Ongoing bit supported" index="0" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Equipment Malfunction Detected bit supported" index="1" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Signal Processing Irregularity Detected bit supported" index="2" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Inadequite Signal Detected bit supported" index="3" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Poor Signal Detected bit supported" index="4" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Low Perfusion Detected bit supported" index="5" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Erratic Signal Detected bit supported" index="6" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Nonpulsatile Signal Detected bit supported" index="7" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Questionable Pulse Detected bit supported" index="8" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Signal Analysis Ongoing bit supported" index="9" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Sensor Interface Detected bit supported" index="10" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Sensor Unconnected to User bit supported" index="11" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Unknown Sensor Connected bit supported" index="12" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Sensor Displaced bit supported" index="13" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Sensor Malfunctioning bit supported" index="14" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Sensor Disconnected bit supported" index="15" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+			</BitField>
+		</Field>
+        <Field name="Spot-Check Operating Mode Support">
+            <InformativeText> C3: Field exists if the key of bit 2 of the Flags field is set to 1  </InformativeText>
+            <Requirement>C3</Requirement>
+            <Format>8bit</Format>
+            <BitField>
+                <Bit name="Measuring storage is supported" index="0" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <ReservedForFutureUse index="1" size="7"/>
+			</BitField>
+		</Field>
+        <Field name="Continuous Measurement Operating Mode Support">
+            <InformativeText> C4: Field exists if the key of bit 3 of the Flags field is set to 1  </InformativeText>
+            <Requirement>C4</Requirement>
+            <Format>8bit</Format>
+            <BitField>
+                <Bit name="Threshold feature supported" index="0" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Fast-response SpO2 and pulse rate metric supported" index="1" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Slow-reponse SpO2 and pulse rate metric supported" index="2" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Sequence Number field supported" index="3" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Pulsatile Event Data supported" index="4" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Pulse Quantifier field is supported as part of the pulsatile event characteristic value" index="5" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <Bit name="Pulse-Pulse Interval field is supported as part of the pulsatile event characteristic value" index="6" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+					</Enumerations>
+				</Bit>
+                <ReservedForFutureUse index="7" size="1"/>
+                </BitField>
+		</Field>
+	</Value>
+    <Note>
+        The fields in the above table, reading from top to bottom, are shown in the order of LSO to MSO, where LSO = Least Significant Octet and MSO = Most Significant Octet.
+        Where fields with the format ‘nibble’ have been defined in the above table, the fields are shown in the order of Least Significant Nibble first, when reading the table from top to bottom.  Where the characteristic definition contains two adjacent nibbles and the service specification has defined that that pair of nibbles comprise a single octet, the Least Significant Nibble means the four bits numbered 0, 1, 2 and 3 of the octet and the Most Significant Nibble means the four bits numbered 4, 5, 6 and 7 of that octet.
+    </Note>
+</Characteristic>

@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Liquid XML Studio Designer Edition 9.1.10.3537 (http://www.liquid-technologies.com) -->
+<!--Copyright 2011 Bluetooth SIG, Inc. All rights reserved.-->
+<Characteristic xsi:noNamespaceSchemaLocation="http://schemas.bluetooth.org/Documents/characteristic.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Pulse Oximetry Spot-Check Measurement" type="org.bluetooth.characteristic.pulse_oximetry_spot-check_measurement" uuid="2A5E" last-modified="2012-05-18" approved="No">
+  <InformativeText>
+    <Summary>This characteristic is a variable length structure containing a Flags field, a SpO2PR-Fully-Qualified field, a Timestamp Field, and based upon the contents of the Flags field may contain a Measurement Status field and a Device and Sensor Status field.The maximum length of this structure if all Flags are set is 16 octets. </Summary>
+</InformativeText>  
+    <Value>
+        <Field name="Flags">
+            <InformativeText>These flags define which data fields are present in the Characteristic value</InformativeText>
+            <Requirement>Mandatory</Requirement>
+            <Format>8bit</Format>
+            <BitField>
+                <Bit index="0" size="1" name="Measurement Status Field">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+                    </Enumerations>
+                </Bit>
+                <Bit index="1" size="1" name="Device and Sensor Status Field">
+                    <Enumerations>
+                        <Enumeration key="0" value="False" />
+                        <Enumeration key="1" value="True" />
+                    </Enumerations>
+                </Bit>
+                <ReservedForFutureUse index="2" size="6" />
+            </BitField>
+		</Field>
+        <Field name="Measurement Status">
+            <InformativeText> C1:Field exists if key of bit 0 of the Flags field is set to 1</InformativeText>
+            <Requirement>C1</Requirement>
+            <Format>16bit</Format>
+            <BitField>
+                <Bit name="Measurement Ongoing" index="5" size="1">
+                    <Enumerations>
+                            <Enumeration key="0" value="False"/>
+                            <Enumeration key="1" value="True"/>
+					</Enumerations>
+				</Bit>
+                <Bit name="Early Estimated Data" index="6" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+					</Enumerations>
+				</Bit>
+                <Bit name="Fully Qualified Data" index="7" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+					</Enumerations>
+				</Bit>
+                <Bit name="Data for Demonstration" index="10" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>                     
+					</Enumerations>
+				</Bit>
+                <Bit name="Data for Testing" index="11" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+					</Enumerations>
+				</Bit>
+                <Bit name="Calibration Ongoing" index="12" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+					</Enumerations>
+				</Bit>
+                <Bit name="Measurement Unavailable" index="13" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+					</Enumerations>
+				</Bit>
+                <Bit name="Questionable Measurement Detected" index="14" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+					</Enumerations>
+				</Bit>
+                <Bit name="Invalid Measurement Detected" index="15" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+                    </Enumerations>
+				</Bit>
+                <ReservedForFutureUse index="0" size="5"/>
+                <ReservedForFutureUse index="8" size="2"/>
+			</BitField>
+		</Field>
+        <Field name="Device and Sensor Status">
+            <InformativeText> C2: Field exists if the key of bit 1 of the Flags field is set to 1</InformativeText>
+            <Requirement>C2</Requirement>
+            <Format>16bit</Format>
+            <BitField>
+                <Bit name="Extended Display Update Ongoing" index="0" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+					</Enumerations>
+				</Bit>
+                <Bit name="Equipment Malfunction Detected" index="1" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+				    </Enumerations>
+				</Bit>
+                <Bit name="Signal Processing Irregularity Detected" index="2" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+					</Enumerations>
+				</Bit>
+                <Bit name="Inadequite Signal Detected" index="3" size="1">
+                    <Enumerations>
+                         <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+					</Enumerations>
+				</Bit>
+                <Bit name="Poor Signal Detected" index="4" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+					</Enumerations>
+				</Bit>
+                <Bit name="Low Perfusion Detected" index="5" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+					</Enumerations>
+				</Bit>
+                <Bit name="Erratic Signal Detected" index="6" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+					</Enumerations>
+				</Bit>
+                <Bit name="Nonpulsatile Signal Detected" index="7" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+					</Enumerations>
+				</Bit>
+                <Bit name="Questionable Pulse Detected" index="8" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+					</Enumerations>
+				</Bit>
+                <Bit name="Signal Analysis Ongoing" index="9" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+					</Enumerations>
+				</Bit>
+                <Bit name="Sensor Interface Detected" index="10" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+					</Enumerations>
+				</Bit>
+                <Bit name="Sensor Unconnected to User" index="11" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+					</Enumerations>
+				</Bit>
+                <Bit name="Unknown Sensor Connected" index="12" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+					</Enumerations>
+				</Bit>
+                <Bit name="Sensor Displaced" index="13" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+					</Enumerations>
+				</Bit>
+                <Bit name="Sensor Malfunctioning" index="14" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+					</Enumerations>
+				</Bit>
+                <Bit name="Sensor Disconnected" index="15" size="1">
+                    <Enumerations>
+                        <Enumeration key="0" value="False"/>
+                        <Enumeration key="1" value="True"/>
+					</Enumerations>
+				</Bit>
+			</BitField>
+		</Field>
+	</Value>
+    <Note>
+        The fields in the above table, reading from top to bottom, are shown in the order of LSO to MSO, where LSO = Least Significant Octet and MSO = Most Significant Octet.
+        Where fields with the format ‘nibble’ have been defined in the above table, the fields are shown in the order of Least Significant Nibble first, when reading the table from top to bottom.  Where the characteristic definition contains two adjacent nibbles and the service specification has defined that that pair of nibbles comprise a single octet, the Least Significant Nibble means the four bits numbered 0, 1, 2 and 3 of the octet and the Most Significant Nibble means the four bits numbered 4, 5, 6 and 7 of that octet.
+    </Note>
+ </Characteristic>
+
+    

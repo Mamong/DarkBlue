@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Copyright 2011 Bluetooth SIG, Inc. All rights reserved.-->
+<Characteristic xsi:noNamespaceSchemaLocation="http://schemas.bluetooth.org/Documents/characteristic.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Digital Input" type="org.bluetooth.characteristic.digital_input" uuid="2A56" last-modified="2012-03-14" approved="NO">
+    <InformativeText>
+        <Summary>
+            The Digital Input characteristic is a 1-bit array where each bit represents the state of one binary digital IO.
+        </Summary>
+    </InformativeText>
+    <Value>
+        <Field name="Input Bits">
+            <InformativeText> This field is an array of 1-bit values</InformativeText>
+            <Requirement>Mandatory</Requirement>
+            <Format>uint8</Format>
+            <!--<Enumerations>
+                <Enumeration key="0" value="Inactive" />
+                <Enumeration key="1" value="Active" />
+                <ReservedForFutureUse start="2" end="255" />
+            </Enumerations>-->
+            <Repeated>true</Repeated>
+        </Field>
+    </Value>
+    <Note>
+        The Octet Order in the above table is in the order of LSO to MSO, where LSO = Least Significant Octet and MSO = Most Significant Octet.
+    </Note>
+</Characteristic>

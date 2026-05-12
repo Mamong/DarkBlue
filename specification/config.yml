@@ -1,0 +1,10 @@
+debug: False
+pretty_json: True
+
+loc_formats: formats.yml
+
+loc_profiles:        1 Profiles
+loc_services:        2 Services
+loc_characteristics: 3 Characteristics
+
+loc_json_out: json_out.json

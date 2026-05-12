@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2011 Bluetooth SIG, Inc. All rights reserved. -->
+<Profile xsi:noNamespaceSchemaLocation="http://schemas.bluetooth.org/Documents/profile.xsd" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    type="org.bluetooth.profile.proximity_profile_v1.1"
+    name="Proximity Profile 1.1" >
+    <InformativeText>
+        <Abstract>The Proximity profile enables proximity monitoring between two devices.</Abstract>
+        <Summary>
+            The Proximity profile defines the behavior when a device moves away from a peer device so that the connection is dropped or the path loss increases above a preset level, causing an immediate alert. This alert can be used to notify the user that the devices have become separated. As a consequence of this alert, a device may take further action, for example to lock one of the devices so that it is no longer usable.
+The Proximity profile can also be used to define the behavior when the two devices come closer together such that a connection is made or the path loss decreases below a preset level.
+		</Summary>
+	</InformativeText>
+    <Role name="Proximity Reporter Server">
+        <Service type="org.bluetooth.service.link_loss_service_v1.1">
+            <Declaration>PrimarySingleInstance</Declaration>
+            <Requirement>Mandatory</Requirement>
+		</Service>
+        <Service type="org.bluetooth.service.immediate_alert_service_v1.1">
+            <Declaration>Primary</Declaration>
+            <Requirement>Optional</Requirement>
+		</Service>
+        <Service type="org.bluetooth.service.tx_power_service_v1.1">
+            <Declaration>Primary</Declaration>
+            <Requirement>Optional</Requirement>
+		</Service>
+	</Role>
+    <Role name="Proximity Monitor Client">
+        <Conditional>
+            <Type>C1:Mandatory if Alert on Path Loss is required, otherwise optional.</Type>
+		</Conditional>
+        <Client type="org.bluetooth.service.link_loss_service_v1.1">
+            <Requirement>Mandatory</Requirement>
+		</Client>
+        <Client type="org.bluetooth.service.immediate_alert_service_v1.1">
+            <Requirement>C1:Mandatory if Alert on Path Loss (Section 4.6) is required, otherwise optional</Requirement>
+		</Client>
+        <Client type="org.bluetooth.service.tx_power_service_v1.1">
+            <Requirement>C1:Mandatory if Alert on Path Loss (Section 4.6) is required, otherwise optional</Requirement>
+		</Client>
+	</Role>
+   </Profile>
