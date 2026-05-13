@@ -49,6 +49,7 @@ struct PropertyEditView: View {
 #endif
                 .font(.body.monospaced())
                 .padding(12)
+                .tint(.lbSkyBlue)
             // 2. 背景适配：使用平台语义色
                 .background(
                     RoundedRectangle(cornerRadius: 4)
@@ -85,6 +86,21 @@ struct PropertyEditView: View {
             if showError{
                 Text("The field can not be empty").foregroundStyle(.red)
             }
+#if os(macOS) || targetEnvironment(macCatalyst)
+            Button(action:{
+                if !showError{
+                    onSave?(content)
+                    dismiss()
+                }
+            }){
+                Text("Done").padding()
+                    .foregroundStyle(showError ? .gray :.white)
+                    .background(showError ? Color.lbLightGray :Color.lbSkyBlue)
+                    .clipShape(RoundedRectangle(cornerRadius: 5))
+            }
+            .buttonStyle(.plain)
+            .disabled(showError)
+#endif
             Spacer()
         }
         .padding()

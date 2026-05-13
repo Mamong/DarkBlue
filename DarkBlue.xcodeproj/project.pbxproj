@@ -302,7 +302,8 @@
 				ENABLE_RESOURCE_ACCESS_BLUETOOTH = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DarkBlue/Info.plist;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "我们需要通过蓝牙连接你的传感器设备";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Used to scan, connect, and listen to BLE device events.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Used to scan and connect to BLE devices.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = NO;
@@ -347,7 +348,8 @@
 				ENABLE_RESOURCE_ACCESS_BLUETOOTH = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DarkBlue/Info.plist;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "我们需要通过蓝牙连接你的传感器设备";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Used to scan, connect, and listen to BLE device events.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "Used to scan and connect to BLE devices.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIStatusBarHidden = NO;
